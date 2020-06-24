@@ -1,0 +1,107 @@
+ LCModel (Version 6.3-1L)
+ Summed_Averaged_TE32_MM
+ Data of: Department of High-Field Magnetic Resonance, Max Planck Institute for Biological Cybernetics, Tuebingen, Germany
+ 24-June-2020  12:39
+
+$$CONC 17 lines in following concentration table = NCONC+1
+    Conc.  %SD   /Cr    Metabolite                                         
+ 1.30E-07   2%   1.000 Cr                                                  
+    4.842   2% 3.7E+07 MM09                                                
+    1.053   5% 8.1E+06 MM12                                                
+    3.165   3% 2.4E+07 MM14                                                
+    4.777   3% 3.7E+07 MM17                                                
+    5.368   3% 4.1E+07 MM20                                                
+    5.452   3% 4.2E+07 MM22                                                
+    1.287   7% 9.9E+06 MM26                                                
+    0.948   8% 7.3E+06 MM27                                                
+    2.149   5% 1.7E+07 MM30                                                
+    1.852   6% 1.4E+07 MM32                                                
+    0.382  18% 2.9E+06 MM36                                                
+    1.078   8% 8.3E+06 MM37                                                
+    1.598   7% 1.2E+07 MM38                                                
+    0.102  63% 7.8E+05 MM40                                                
+    1.312   6% 1.0E+07 Cre                                                 
+
+$$MISC  6 lines in following misc. output table
+  FWHM = 0.098 ppm    S/N =  10                                            
+  Data shift = 0.061 ppm                                                   
+  Ph:   0 deg       0.0 deg/ppm                                            
+  alphaB,S = 1.0E+02,   1.3E+02                                            
+    6 spline knots.   Ns = 9(4)                                            
+  (14) 6 infls.   ( 9) 1 extrs.                                            
+
+$$DIAG  5 lines in following diagnostic table:
+   1 ERROR     MYBASI 10                                                  
+   1 warning   MYBASI  8                                                  
+   1 info      STARTV 24                                                  
+   2 info's    RFALSI 12                                                  
+   4 info's    RFALSI 11                                                  
+
+$$INPU 67 lines in following table of input changes:
+chsimu(15)= 'Cre @ 3.925 +- 0.01 FWHM= .01 < .035                         
+    +- .003 AMP= 1.'                                                      
+chsimu(14)= 'MM40 @ 4.03 +- 0.01 FWHM= .05 < .10                          
+   +- .005 AMP= 1.'                                                       
+chsimu(13)= 'MM38 @ 3.86 +- 0.01 FWHM= .02 < .10                          
+   +- .005 AMP= 1.'                                                       
+chsimu(12)= 'MM37 @ 3.75 +- 0.02 FWHM= .02 < .10                          
+   +- .005 AMP= 1.'                                                       
+chsimu(11)= 'MM36 @ 3.62 +- 0.02 FWHM= .09 < .11                          
+   +- .005 AMP= 1.'                                                       
+chsimu(10)= 'MM32 @ 3.21 +- 0.02 FWHM= .12 < .18                          
+   +- .005 AMP= 1.'                                                       
+chsimu(9)= 'MM30 @ 2.99 +- 0.01 FWHM= .10 < .12 +                         
+   - .005 AMP= 1.'                                                        
+chsimu(8)= 'MM27 @ 2.7 +- 0.05 FWHM= .04 < .08 +-                         
+    .005 AMP= 1.'                                                         
+chsimu(7)= 'MM26 @ 2.56 +- 0.01 FWHM= .09 < .11 +                         
+   - .005 AMP= 1.'                                                        
+chsimu(6)= 'MM22 @ 2.26 +- 0.005 FWHM= .10 < .13                          
+   +- .005 AMP= 1.'                                                       
+chsimu(5)= 'MM20 @ 2.04 +- 0.01 FWHM= .10 < .13 +                         
+   - .005 AMP= 1.'                                                        
+chsimu(4)= 'MM17 @ 1.67 +- 0.01 FWHM= .10 < .13 +                         
+   - .005 AMP= 1.'                                                        
+chsimu(3)= 'MM14 @ 1.39 +- 0.01 FWHM= .08 < .11 +                         
+   - .005 AMP= 1.'                                                        
+chsimu(2)= 'MM12 @ 1.21 +- 0.01 FWHM= .08 < .11 +                         
+   - .005 AMP= 1.'                                                        
+chsimu(1)= 'MM09 @ 0.916 +- 0.01 FWHM= .08 < .11                          
+   +- .01 AMP= 1.'                                                        
+nsimul= 15                                                                
+nratio=0                                                                  
+wconc= 40873                                                              
+shifmx(2) = 0.07                                                          
+shifmn(2) = -0.07                                                         
+sddegz= 0                                                                 
+sddegp= 0                                                                 
+ppmgap(2,1)=4.2                                                           
+ppmgap(1,1)=7.6                                                           
+ppmst= 8.2                                                                
+ppmend= 0.2                                                               
+nunfil= 4096                                                              
+neach= 50                                                                 
+hzpppm= 399.719                                                           
+dows= T                                                                   
+doecc= F                                                                  
+dkntmn= 99                                                                
+deltat= 1.2500e-04                                                        
+atth2o= 1                                                                 
+LCSV=11                                                                   
+LCOORD=9                                                                  
+LPS = 8                                                                   
+LTABLE=7                                                                  
+FILCOO='/kyb/agks/tborbath/Desktop/MM_T2_WM/Outpu                         
+   t/Summed_Averaged_TE32.coord'                                          
+FILCSV='/kyb/agks/tborbath/Desktop/MM_T2_WM/Outpu                         
+   t/Summed_Averaged_TE32.csv'                                            
+FILTAB='/kyb/agks/tborbath/Desktop/MM_T2_WM/Outpu                         
+   t/Summed_Averaged_TE32.table'                                          
+FILPS='/kyb/agks/tborbath/Desktop/MM_T2_WM/Output                         
+   /Summed_Averaged_TE32.ps'                                              
+FILH2O='/kyb/agks/tborbath/Desktop/MM_T2_WM/Summe                         
+   d_Averaged_water.RAW'                                                  
+FILRAW='/kyb/agks/tborbath/Desktop/MM_T2_WM/Summe                         
+   d_Averaged_TE32.RAW'                                                   
+FILBAS='/kyb/agks/tborbath/Desktop/MM/Basis_sets/                         
+   NAA_DF_basis.basis'                                                    

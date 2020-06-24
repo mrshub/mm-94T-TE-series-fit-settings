@@ -1,0 +1,52 @@
+$LCMODL
+OWNER='Max Planck Institute biological Cybernetics'
+TITLE='Summed_Averaged_TE24_MM'
+FILBAS='/kyb/agks/tborbath/Desktop/MM/Basis_sets/NAA_DF_basis.basis'
+FILRAW='/kyb/agks/tborbath/Desktop/MM/Summed_Averaged_TE24.RAW'
+FILH2O='/kyb/agks/tborbath/Desktop/MM/Summed_Averaged_water.RAW'
+FILPS='/kyb/agks/tborbath/Desktop/MM/Output/Summed_Averaged_TE24.ps'
+FILTAB='/kyb/agks/tborbath/Desktop/MM/Output/Summed_Averaged_TE24.table'
+FILCSV='/kyb/agks/tborbath/Desktop/MM/Output/Summed_Averaged_TE24.csv'
+FILCOO='/kyb/agks/tborbath/Desktop/MM/Output/Summed_Averaged_TE24.coord'
+LTABLE=7 
+LPS = 8
+LCOORD=9
+LCSV=11
+atth2o= 1
+deltat= 1.2500e-04
+dkntmn= 99
+doecc= F
+dows= T
+hzpppm= 399.719
+neach= 50
+nunfil= 4096
+ppmend= 0.2
+ppmst= 8.2
+ppmgap(1,1)=7.6
+ppmgap(2,1)=4.2
+sddegp= 0
+sddegz= 0
+shifmn(2) = -0.00
+shifmx(2) = 0.00
+wconc= 40873
+rfwhm=0.5
+nratio=0
+nsimul= 14
+chsimu(1)= 'MM09 @ 0.916 +- 0.01 FWHM= .08 < .11 +- .01 AMP= 1.'
+chsimu(2)= 'MM12 @ 1.21 +- 0.01 FWHM= .08 < .11 +- .005 AMP= 1.'
+chsimu(3)= 'MM14 @ 1.39 +- 0.01 FWHM= .08 < .11 +- .005 AMP= 1.'
+chsimu(4)= 'MM17 @ 1.67 +- 0.01 FWHM= .10 < .13 +- .005 AMP= 1.'
+chsimu(5)= 'MM20 @ 2.04 +- 0.01 FWHM= .10 < .13 +- .005 AMP= 1.'
+chsimu(6)= 'MM22 @ 2.26 +- 0.005 FWHM= .10 < .13 +- .005 AMP= 1.'
+chsimu(7)= 'MM26 @ 2.56 +- 0.01 FWHM= .09 < .11 +- .005 AMP= 1.'
+chsimu(8)= 'MM27 @ 2.7 +- 0.05 FWHM= .04 < .08 +- .005 AMP= 1.'
+chsimu(9)= 'MM30 @ 2.99 +- 0.01 FWHM= .10 < .12 +- .005 AMP= 1.'
+chsimu(10)= 'MM32 @ 3.21 +- 0.02 FWHM= .12 < .18 +- .005 AMP= 1.'
+chsimu(11)= 'MM36 @ 3.62 +- 0.02 FWHM= .09 < .11 +- .005 AMP= 1.'
+chsimu(12)= 'MM37 @ 3.75 +- 0.02 FWHM= .02 < .10 +- .005 AMP= 1.'
+chsimu(13)= 'MM38 @ 3.86 +- 0.005 FWHM= .02 < .10 +- .005 AMP= 1.'
+chsimu(14)= 'MM40 @ 4.03 +- 0.01 FWHM= .05 < .10 +- .005 AMP= 1.'
+chsimu(15)= 'Cre @ 3.925 +- 0.01 FWHM= .01 < .035 +- .003 AMP= 1.'
+$END
+ 
+
